@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  width: 500px;
+  padding-top: 50%;
+  padding-bottom: 50%;
+  background-color: rgb(245, 245, 245);
+}
+
+form {
+  justify-content: center;
+  align-items: center;
+}
