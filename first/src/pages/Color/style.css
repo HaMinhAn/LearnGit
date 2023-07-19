@@ -1,0 +1,17 @@
+.sample {
+  height: 30px;
+  width: 100px;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  width: 400px;
+}

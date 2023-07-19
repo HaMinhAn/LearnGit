@@ -4,10 +4,11 @@ import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Logo from "../logo/Logo";
+import Layout from "../layout/Layout";
 const LoginForm = () => {
   return (
     <>
-      <div>
+      <Layout>
         <Form>
           <Form.Group className="mb-3" controlId="formBasicEmail">
             <Form.Label>Email address</Form.Label>
@@ -32,7 +33,7 @@ const LoginForm = () => {
             Submit
           </Button>
         </Form>
-      </div>
+      </Layout>
     </>
   );
 };

@@ -1,8 +1,8 @@
-import React from "react";
+import React, { ReactNode } from "react";
 import { Redirect } from "react-router";
-
-const Layout = () => {
-  return <Redirect to={"/login"} />;
+import "./index.css";
+const Layout = (props: { children: ReactNode }) => {
+  return <div className="container">{props.children}</div>;
 };
 
 export default Layout;
